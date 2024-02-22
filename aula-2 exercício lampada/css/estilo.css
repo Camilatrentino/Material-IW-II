@@ -6,6 +6,8 @@ header,main{
 }
 
 button{
-    width: 95px;
-    background-color:rgb(154, 164, 241);
+    width: 100px;
+    background-color:rgb(186, 193, 247);
+    border-radius: 18px;
+    font-family: "Times New Roman", Times, serif;
 }
