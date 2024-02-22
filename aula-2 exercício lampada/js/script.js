@@ -9,6 +9,24 @@ function estaquebrada(){
     //retorna true ou false
 }
 
+function inte(){
+    return lampada.src.indexOf('desligada') > -1
+}
+
+//interruptor
+function inter(){
+    if(!estaquebrada()){
+        if(inte()){
+        lampada.src = 'img/ligada.jpg'
+      }
+        else{
+        lampada.src = 'img/desligada.jpg'
+      }
+    }
+}
+//interruptor
+
+
 function lampligada(){
     if(!estaquebrada()){
         lampada.src = 'img/ligada.jpg'
@@ -29,8 +47,7 @@ function restaurar(){
     lampada.src = 'img/desligada.jpg'
 }
 
-int.addEventListener('click',lampligada)
-int.addEventListener('dblclick',lampdesligada)
+int.addEventListener('click',inter)
 ligar.addEventListener('click',lampligada)
 desligar.addEventListener('click',lampdesligada)
 
@@ -42,6 +59,30 @@ lampada.addEventListener('dblclick', lampquebrada)
 rest.addEventListener('click', restaurar)
 
 
+//texto
+
+// const bot = document.getElementById('botao')
+
+// let estado
+// function quebra(){
+    
+// }
+
+// if(estaquebrada()){
+//         estado = 'quebrada'
+// }
+// else{
+//      if(inte()){
+//             estado = 'desligada'
+//      }
+//      else{
+//             estado ='ligada'
+//     }
+// }
+
+
+// let text = estado
+// document.getElementById("oi").innerHTML = text;
 
 
 
