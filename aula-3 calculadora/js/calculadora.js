@@ -40,3 +40,9 @@ function mult(){
     console.log(mult)
     resultado.innerHTML = ('<p> a multiplicação é ' + mult + '</p>')
 }
+
+function limpar(){
+    resultado.innerHTML = " "
+    n1.innerHTML = ' '
+    n2.innerHTML = ' '
+}
