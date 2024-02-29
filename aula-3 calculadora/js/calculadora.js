@@ -1,3 +1,4 @@
+var resultado = document.getElementById('resultado') 
 
 function pegarn(){
     var num1 = document.getElementById('n1').value
@@ -43,6 +44,6 @@ function mult(){
 
 function limpar(){
     resultado.innerHTML = " "
-    n1.innerHTML = ' '
-    n2.innerHTML = ' '
+    document.getElementById('n1').value= " "
+    document.getElementById('n2').value= " "
 }
