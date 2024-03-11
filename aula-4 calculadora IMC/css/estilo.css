@@ -1,0 +1,16 @@
+.calcu{
+    width: 300px;
+    border: 20px solid rgb(182, 149, 248);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(232, 225, 248);
+}
+
+button{
+    width: 85px;
+    background-color:rgb(219, 204, 248);
+    border-radius: 4px;
+}

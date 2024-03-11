@@ -8,8 +8,7 @@
     <title>Calculadora</title>
 </head>
 <body>
-
-    
+    <div class="oi">
     <h1>Calculadora</h1>
     Digite o primeiro número:
     <input id="n1" name="n1" value="" type="number">
@@ -19,16 +18,18 @@
     Digite o segundo número:
     <input id="n2" name="n2" value="" type="number">
     <br>
-    <br>
+   
 
-    
+    <h3 id="resultado"></h3>
     <button id="soma" onclick="soma()"> Somar</button>
     <button id="sub" onclick="sub()"> Subtrair</button>
     <button id="div" onclick="div()"> Dividir</button>
     <button id="mult" onclick="mult()"> Multiplicar</button>
+    <br>
+    <br>
     <button id="limpar" onclick="limpar()"> Limpar</button>
-
-    <h3 id="resultado"></h3>
+</div>
+    
    
     <script src="js/calculadora.js"></script>
 </body>

@@ -1,8 +1,16 @@
-
-button{
-    width: 85px;
-    background-color:rgb(254, 206, 255);
+.oi{
+    width: 300px;
+    border: 20px solid rgb(232, 168, 233);
     border-radius: 10px;
-    font-family: "Times New Roman", Times, serif;
-
+    padding: 50px;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(248, 226, 248);
+  
+}
+button{
+    width: 72px;
+    background-color:rgb(244, 189, 245);
+    border-radius: 4px;
 }
