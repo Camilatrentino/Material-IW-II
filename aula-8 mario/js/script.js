@@ -1,6 +1,7 @@
 $(document).ready(function() {
     const mario = $('.mario');
     const pipe = $('.pipe');
+    var restaura = $('#rest')
 
     const jump = () => {
         mario.addClass('jump');
@@ -22,9 +23,16 @@ $(document).ready(function() {
             mario.attr('src', 'img/morto.png');
             mario.css('width', '180px');
             mario.css('marginLeft', '50px');
+            restaura.css('display', 'block')
             clearInterval(loop);
         }
     }, 10);
 
-    $(document).keydown(jump);
+    $('#rest').click(function(){
+        location.reload()
+    })
+    
+    $(document).keydown(jump)
+
 });
+

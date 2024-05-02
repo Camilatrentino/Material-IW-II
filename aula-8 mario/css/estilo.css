@@ -41,16 +41,27 @@ background: linear-gradient(#87CEEB, #E0F6FF);
 }
 
 .mario{
-
     width: 100px;
     position: absolute;
     bottom: 0;
-   
 }
+
 
 .jump{
     animation: jump 500ms ease-out;
 }
+
+#rest{
+    margin-top: 15px;
+    margin-left: 47%;
+    padding: 10px;
+    display: none;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 120px;
+    background-color:aliceblue;
+} 
 
 @keyframes pipe-animation{
 
