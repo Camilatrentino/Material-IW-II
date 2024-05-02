@@ -19,8 +19,8 @@ $(document).ready(function() {
             pipe.css('left', `${pipePosit}px`);
             mario.css('animation', 'none');
             mario.css('bottom', `${marioPosit}px`);
-            mario.attr('src', 'img/game-over.png');
-            mario.css('width', '75px');
+            mario.attr('src', 'img/morto.png');
+            mario.css('width', '180px');
             mario.css('marginLeft', '50px');
             clearInterval(loop);
         }

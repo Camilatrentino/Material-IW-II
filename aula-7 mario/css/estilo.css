@@ -21,6 +21,8 @@ background: linear-gradient(#87CEEB, #E0F6FF);
 
 }
 
+
+
 .clouds{
 
     position: absolute;
@@ -40,7 +42,7 @@ background: linear-gradient(#87CEEB, #E0F6FF);
 
 .mario{
 
-    width: 150px;
+    width: 100px;
     position: absolute;
     bottom: 0;
    
